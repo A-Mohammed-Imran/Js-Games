@@ -1,0 +1,145 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 5px;
+  margin: 5px;
+  border: 3px solid black;
+  border-radius: 15px;
+  max-height: 100%;
+}
+
+header {
+  padding: 5px;
+  margin: 5px;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  height: 40%;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+section {
+  height: 60%;
+  padding: 5px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid black;
+  border-radius: 15px;
+}
+
+.main {
+  padding: 15px;
+  margin: 5px;
+  border: 3px solid black;
+  border-radius: 15px;
+  background-color: black;
+}
+
+.game {
+  height: 150px;
+  width: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5%;
+}
+
+.box {
+  min-height: 30%;
+  min-width: 30%;
+  border-radius: 10px;
+  font-size: 200%;
+  cursor: pointer;
+}
+
+.box:disabled {
+  color: black;
+  background-color: white;
+}
+
+.reset {
+  height: 10%;
+  width: 25%;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: 700;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.reset:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.reset {
+  height: 35px;
+  width: 175px;
+  font-weight: 700;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.reset:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.winsec {
+  height: 20%;
+  width: 175px;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.new {
+  height: 35px;
+  width: 100%;
+  border-radius: 10px;
+  font-weight: 700;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.new:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+footer {
+  height: 6rem;
+  padding: 5px;
+  margin: 5px;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
