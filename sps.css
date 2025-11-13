@@ -107,6 +107,7 @@ img {
 .hbt {
   width: 100px;
   height: 25px;
+  border-radius: 20px;
 }
 
 .hbt:hover {
@@ -116,23 +117,21 @@ img {
 }
 
 footer {
-  height: 6.8rem;
-            padding: 5px;
-            margin: 5px;
-            margin-bottom: 15px;
-            border-radius: 15px;
-            background-color: black;
-            color: white;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            gap: 10px;
-        }
-
+  height: 7rem;
+  padding: 5px;
+  margin: 5px;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
 
 @media screen and (max-width: 425px) {
-
   header {
     gap: 6.5px;
   }
@@ -141,7 +140,7 @@ footer {
     font-size: 1.5rem;
   }
 
-  p{
+  p {
     font-size: 0.8rem;
   }
 

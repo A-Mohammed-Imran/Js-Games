@@ -132,6 +132,7 @@ section {
 .hbt {
   width: 100px;
   height: 25px;
+  border-radius: 20px;
 }
 
 .hbt:hover {
