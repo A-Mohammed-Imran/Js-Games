@@ -104,8 +104,19 @@ img {
   font-size: 1.5rem;
 }
 
+.hbt {
+  width: 100px;
+  height: 25px;
+}
+
+.hbt:hover {
+  border: 3px solid white;
+  background-color: black;
+  color: white;
+}
+
 footer {
-            height: 6rem;
+  height: 6.8rem;
             padding: 5px;
             margin: 5px;
             margin-bottom: 15px;
