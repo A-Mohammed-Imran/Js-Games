@@ -15,7 +15,7 @@ body {
 header {
   padding: 5px;
   margin: 5px;
-  margin-bottom: 15px;
+  margin-bottom: 0px;
   border-radius: 15px;
   height: 40%;
   background-color: black;
@@ -24,7 +24,6 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 3px;
 }
 
 section {
@@ -120,7 +119,7 @@ footer {
   height: 7rem;
   padding: 5px;
   margin: 5px;
-  margin-bottom: 15px;
+  margin-bottom: 0px;
   border-radius: 15px;
   background-color: black;
   color: white;
